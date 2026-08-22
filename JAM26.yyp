@@ -1,77 +1,202 @@
 {
-  "$GMProject":"v1",
-  "%Name":"JAM26",
-  "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  "$GMProject": "v1",
+  "%Name": "JAM26",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
   ],
-  "configs":{
-    "children":[],
-    "name":"Default",
+  "configs": {
+    "children": [],
+    "name": "Default"
   },
-  "defaultScriptType":1,
-  "Folders":[
-    {"$GMFolder":"","%Name":"charts","folderPath":"folders/charts.yy","name":"charts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "charts",
+      "folderPath": "folders/charts.yy",
+      "name": "charts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "sprites",
+      "folderPath": "folders/sprites.yy",
+      "name": "sprites",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"charta.json","CopyToMask":-1,"filePath":"datafiles","name":"charta.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [
+    {
+      "$GMIncludedFile": "",
+      "%Name": "charta.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "charta.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    }
   ],
-  "isEcma":false,
-  "LibraryEmitters":[],
-  "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2026.0.0.16"
   },
-  "name":"JAM26",
-  "resources":[
-    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
-    {"id":{"name":"ob_buttonConfig","path":"objects/ob_buttonConfig/ob_buttonConfig.yy",},},
-    {"id":{"name":"ob_buttonExit","path":"objects/ob_buttonExit/ob_buttonExit.yy",},},
-    {"id":{"name":"ob_buttonStart","path":"objects/ob_buttonStart/ob_buttonStart.yy",},},
-    {"id":{"name":"obj_buttonHelp","path":"objects/obj_buttonHelp/obj_buttonHelp.yy",},},
-    {"id":{"name":"obj_buttonReturnMainMenu","path":"objects/obj_buttonReturnMainMenu/obj_buttonReturnMainMenu.yy",},},
-    {"id":{"name":"obj_chart_editor","path":"objects/obj_chart_editor/obj_chart_editor.yy",},},
-    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
-    {"id":{"name":"obj_hinchadaContentos","path":"objects/obj_hinchadaContentos/obj_hinchadaContentos.yy",},},
-    {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
-    {"id":{"name":"obj_pajaro","path":"objects/obj_pajaro/obj_pajaro.yy",},},
-    {"id":{"name":"obj_screen","path":"objects/obj_screen/obj_screen.yy",},},
-    {"id":{"name":"obj_timing","path":"objects/obj_timing/obj_timing.yy",},},
-    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"id":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
-    {"id":{"name":"rm_mainMenu","path":"rooms/rm_mainMenu/rm_mainMenu.yy",},},
-    {"id":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
-    {"id":{"name":"sound_lvl1","path":"sounds/sound_lvl1/sound_lvl1.yy",},},
-    {"id":{"name":"arrow_down","path":"sprites/arrow_down/arrow_down.yy",},},
-    {"id":{"name":"arrow_left","path":"sprites/arrow_left/arrow_left.yy",},},
-    {"id":{"name":"arrow_right","path":"sprites/arrow_right/arrow_right.yy",},},
-    {"id":{"name":"arrow_up","path":"sprites/arrow_up/arrow_up.yy",},},
-    {"id":{"name":"arrow","path":"sprites/arrow/arrow.yy",},},
-    {"id":{"name":"configOff","path":"sprites/configOff/configOff.yy",},},
-    {"id":{"name":"configOn","path":"sprites/configOn/configOn.yy",},},
-    {"id":{"name":"exitOff","path":"sprites/exitOff/exitOff.yy",},},
-    {"id":{"name":"exitOn","path":"sprites/exitOn/exitOn.yy",},},
-    {"id":{"name":"helpOff","path":"sprites/helpOff/helpOff.yy",},},
-    {"id":{"name":"helpOn","path":"sprites/helpOn/helpOn.yy",},},
-    {"id":{"name":"hinchadaContentos","path":"sprites/hinchadaContentos/hinchadaContentos.yy",},},
-    {"id":{"name":"radar","path":"sprites/radar/radar.yy",},},
-    {"id":{"name":"returnOff","path":"sprites/returnOff/returnOff.yy",},},
-    {"id":{"name":"returnOn","path":"sprites/returnOn/returnOn.yy",},},
-    {"id":{"name":"sp_hinchada","path":"sprites/sp_hinchada/sp_hinchada.yy",},},
-    {"id":{"name":"sp_map","path":"sprites/sp_map/sp_map.yy",},},
-    {"id":{"name":"startOff","path":"sprites/startOff/startOff.yy",},},
-    {"id":{"name":"startOn","path":"sprites/startOn/startOn.yy",},},
+  "name": "JAM26",
+  "resources": [
+    { "id": { "name": "fnt_menu", "path": "fonts/fnt_menu/fnt_menu.yy" } },
+    {
+      "id": {
+        "name": "ob_buttonConfig",
+        "path": "objects/ob_buttonConfig/ob_buttonConfig.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "ob_buttonExit",
+        "path": "objects/ob_buttonExit/ob_buttonExit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "ob_buttonStart",
+        "path": "objects/ob_buttonStart/ob_buttonStart.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_buttonHelp",
+        "path": "objects/obj_buttonHelp/obj_buttonHelp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_buttonReturnMainMenu",
+        "path": "objects/obj_buttonReturnMainMenu/obj_buttonReturnMainMenu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_chart_editor",
+        "path": "objects/obj_chart_editor/obj_chart_editor.yy"
+      }
+    },
+    { "id": { "name": "obj_game", "path": "objects/obj_game/obj_game.yy" } },
+    {
+      "id": {
+        "name": "obj_hinchadaContentos",
+        "path": "objects/obj_hinchadaContentos/obj_hinchadaContentos.yy"
+      }
+    },
+    { "id": { "name": "obj_note", "path": "objects/obj_note/obj_note.yy" } },
+    {
+      "id": { "name": "obj_pajaro", "path": "objects/obj_pajaro/obj_pajaro.yy" }
+    },
+    {
+      "id": { "name": "obj_screen", "path": "objects/obj_screen/obj_screen.yy" }
+    },
+    {
+      "id": { "name": "obj_timing", "path": "objects/obj_timing/obj_timing.yy" }
+    },
+    { "id": { "name": "rm_game", "path": "rooms/rm_game/rm_game.yy" } },
+    { "id": { "name": "rm_help", "path": "rooms/rm_help/rm_help.yy" } },
+    {
+      "id": {
+        "name": "rm_mainMenu",
+        "path": "rooms/rm_mainMenu/rm_mainMenu.yy"
+      }
+    },
+    {
+      "id": { "name": "rm_options", "path": "rooms/rm_options/rm_options.yy" }
+    },
+    {
+      "id": { "name": "sound_lvl1", "path": "sounds/sound_lvl1/sound_lvl1.yy" }
+    },
+    {
+      "id": { "name": "arrow_down", "path": "sprites/arrow_down/arrow_down.yy" }
+    },
+    {
+      "id": { "name": "arrow_left", "path": "sprites/arrow_left/arrow_left.yy" }
+    },
+    {
+      "id": {
+        "name": "arrow_right",
+        "path": "sprites/arrow_right/arrow_right.yy"
+      }
+    },
+    { "id": { "name": "arrow_up", "path": "sprites/arrow_up/arrow_up.yy" } },
+    { "id": { "name": "arrow", "path": "sprites/arrow/arrow.yy" } },
+    { "id": { "name": "configOff", "path": "sprites/configOff/configOff.yy" } },
+    { "id": { "name": "configOn", "path": "sprites/configOn/configOn.yy" } },
+    { "id": { "name": "exitOff", "path": "sprites/exitOff/exitOff.yy" } },
+    { "id": { "name": "exitOn", "path": "sprites/exitOn/exitOn.yy" } },
+    { "id": { "name": "helpOff", "path": "sprites/helpOff/helpOff.yy" } },
+    { "id": { "name": "helpOn", "path": "sprites/helpOn/helpOn.yy" } },
+    {
+      "id": {
+        "name": "hinchadaContentos",
+        "path": "sprites/hinchadaContentos/hinchadaContentos.yy"
+      }
+    },
+    { "id": { "name": "radar", "path": "sprites/radar/radar.yy" } },
+    { "id": { "name": "returnOff", "path": "sprites/returnOff/returnOff.yy" } },
+    { "id": { "name": "returnOn", "path": "sprites/returnOn/returnOn.yy" } },
+    {
+      "id": {
+        "name": "sp_hinchada",
+        "path": "sprites/sp_hinchada/sp_hinchada.yy"
+      }
+    },
+    { "id": { "name": "sp_map", "path": "sprites/sp_map/sp_map.yy" } },
+    { "id": { "name": "startOff", "path": "sprites/startOff/startOff.yy" } },
+    { "id": { "name": "startOn", "path": "sprites/startOn/startOn.yy" } }
   ],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"rm_mainMenu","path":"rooms/rm_mainMenu/rm_mainMenu.yy",},},
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
-    {"roomId":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "rm_mainMenu",
+        "path": "rooms/rm_mainMenu/rm_mainMenu.yy"
+      }
+    },
+    { "roomId": { "name": "rm_game", "path": "rooms/rm_game/rm_game.yy" } },
+    {
+      "roomId": {
+        "name": "rm_options",
+        "path": "rooms/rm_options/rm_options.yy"
+      }
+    },
+    { "roomId": { "name": "rm_help", "path": "rooms/rm_help/rm_help.yy" } }
   ],
-  "templateType":"game",
-  "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
 }
