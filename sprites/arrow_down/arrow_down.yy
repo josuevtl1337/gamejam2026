@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "$GMSprite": "v2",
   "%Name": "arrow_down",
   "bboxMode": 0,
@@ -37,6 +38,29 @@
       "resourceVersion": "2.0",
       "visible": true
     }
+=======
+  "$GMSprite":"v2",
+  "%Name":"arrow_down",
+  "bboxMode":0,
+  "bbox_bottom":63,
+  "bbox_left":3,
+  "bbox_right":60,
+  "bbox_top":0,
+  "collisionKind":1,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"f7636dd9-add2-491f-bd86-dd810288b0c2","name":"f7636dd9-add2-491f-bd86-dd810288b0c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"92a434d5-1c35-4417-a2ea-02d6d0d25787","blendMode":0,"displayName":"default","isLocked":false,"name":"92a434d5-1c35-4417-a2ea-02d6d0d25787","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+>>>>>>> 24356ae (ritmo y musica agregados)
   ],
   "name": "arrow_down",
   "nineSlice": null,
