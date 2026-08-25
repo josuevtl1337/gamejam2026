@@ -54,7 +54,6 @@ if (pressed_key != noone)
                 feedback = "PERFECT";
 				with (obj_game)
 				{
-					notes_count=notes_count +1; 
 					score_bar += 10;
 					score_bar = clamp(score_bar, 0, 100);
 					score_bar_color= c_green;
@@ -70,7 +69,6 @@ if (pressed_key != noone)
                 feedback = "GOOD";
 				with (obj_game)
 				{
-					notes_count=notes_count +1; 
 					score_bar += 5;
 					score_bar = clamp(score_bar, 0, 100);
 					score_bar_color= c_blue;
