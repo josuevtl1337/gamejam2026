@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"snd_whistle_start",
   "parent":{
-    "name":"JAM26",
-    "path":"JAM26.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_whistle_start.wav",
-  "volume":1.0,
+  "volume":0.69,
 }

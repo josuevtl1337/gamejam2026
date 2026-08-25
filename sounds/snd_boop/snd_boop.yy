@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"snd_boop",
   "parent":{
-    "name":"JAM26",
-    "path":"JAM26.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_boop.wav",
-  "volume":0.34,
+  "volume":1.0,
 }

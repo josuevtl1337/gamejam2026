@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"sound_lvl2",
   "parent":{
-    "name":"JAM26",
-    "path":"JAM26.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sound_lvl2.wav",
-  "volume":0.4,
+  "volume":0.5,
 }

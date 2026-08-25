@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sound_lvl1",
   "parent":{
-    "name":"JAM26",
-    "path":"JAM26.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
