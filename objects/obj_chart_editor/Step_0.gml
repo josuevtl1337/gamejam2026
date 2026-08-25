@@ -11,13 +11,13 @@ if (keyboard_check_pressed(vk_up))
 if (keyboard_check_pressed(vk_f5))
 {
     var data = {
-        song: "music_song",
+        song: "musiclvl2_song",
         notes: notes
     };
 
     var json = json_stringify(data);
 
-    var file = file_text_open_write("chart1.json");
+    var file = file_text_open_write("chartlvl2.json");
     file_text_write_string(file, json);
     file_text_close(file);
     

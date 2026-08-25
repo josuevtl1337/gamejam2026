@@ -43,13 +43,13 @@ else if (keyboard_check_pressed(vk_right))
 
 if (pressed_key != noone)
 {
-    if (distance <= 60)
+    if (distance <= 40)
     {
         var feedback = "MISS";
 
         if (pressed_key == note_key)
         {
-            if (distance <= 20)
+            if (distance <= 15)
             {
                 feedback = "PERFECT";
 				with (obj_game)
@@ -57,12 +57,13 @@ if (pressed_key != noone)
 					score_bar += 10;
 					score_bar = clamp(score_bar, 0, 100);
 					score_bar_color= c_green;
-					audio_play_sound(
-			            snd_beep1,
-			            1,
-			            false
-					);
+			
 				}
+				audio_play_sound(
+			    snd_beep1,
+			    1,
+			    false
+			);
             }
             else
             {
