@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pajaro",
+  "%Name":"obj_hinchadaContentos",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pajaro",
+  "name":"obj_hinchadaContentos",
   "overriddenProperties":[],
   "parent":{
     "name":"gamejam2026-develop-bar",
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"hinchadaContentos",
+    "path":"sprites/hinchadaContentos/hinchadaContentos.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
