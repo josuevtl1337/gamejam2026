@@ -1,3 +1,4 @@
+show_debug_message(note_key);
 switch (note_key)
 {
     case vk_up:

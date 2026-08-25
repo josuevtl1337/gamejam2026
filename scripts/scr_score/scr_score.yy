@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_score",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_score",
+  "parent":{
+    "name":"JAM26",
+    "path":"JAM26.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

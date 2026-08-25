@@ -1,1 +1,1 @@
-timing_y = 900;
+timing_x = 400;

@@ -1,8 +1,12 @@
 note_key = vk_up;
 
-x = 360;
-y = 100;
+x = 900;
+y = 150;
 
-fall_speed = 5;
+//direction = 180;
+//speed = 2;
 
-timing_y = 900;
+timing_x = 400;
+
+travel_time = 2;
+spawn_x = 900;
