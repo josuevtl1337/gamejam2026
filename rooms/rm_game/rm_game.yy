@@ -207,7 +207,6 @@
     "PhysicsWorldGravityY": 10.0,
     "PhysicsWorldPixToMetres": 0.1
   },
-<<<<<<< HEAD
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "roomSettings": {
@@ -215,15 +214,6 @@
     "inheritRoomSettings": false,
     "persistent": false,
     "Width": 1280
-=======
-  "resourceType":"GMRoom",
-  "resourceVersion":"2.0",
-  "roomSettings":{
-    "Height":720,
-    "inheritRoomSettings":false,
-    "persistent":false,
-    "Width":1280,
->>>>>>> 24356ae (ritmo y musica agregados)
   },
   "sequenceId": null,
   "views": [

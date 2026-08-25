@@ -55,6 +55,14 @@ if (pressed_key != noone)
 				with (obj_game)
 				{
 					notes_count=notes_count +1; 
+					score_bar += 10;
+					score_bar = clamp(score_bar, 0, 100);
+					score_bar_color= c_green;
+					audio_play_sound(
+			            snd_beep1,
+			            1,
+			            false
+					);
 				}
             }
             else
@@ -63,9 +71,34 @@ if (pressed_key != noone)
 				with (obj_game)
 				{
 					notes_count=notes_count +1; 
+					score_bar += 5;
+					score_bar = clamp(score_bar, 0, 100);
+					score_bar_color= c_blue;
+					audio_play_sound(
+			            snd_beep1,
+			            1,
+			            false
+					);
 				}
             }
         }
+		  if (pressed_key != note_key){
+			with (obj_game)
+			{
+					feedback_text = "MISS";
+					feedback_timer = 60;
+					score_bar -= 15; 
+					score_bar = clamp(score_bar, 0, 100);
+					score_bar_color= c_red;
+					audio_play_sound(
+						snd_boop,
+						1,
+						false
+					);
+			}
+			instance_destroy();
+		  }
+		  
 
         with (obj_game)
         {
@@ -88,6 +121,14 @@ if (x < timing_x - 50)
     {
         feedback_text = "MISS";
         feedback_timer = 60;
+		score_bar -= 15; 
+		score_bar = clamp(score_bar, 0, 100);
+		score_bar_color= c_red;
+		audio_play_sound(
+			snd_boop,
+			1,
+			false
+		);
     }
 
     instance_destroy();

@@ -9,7 +9,8 @@ count = 0;
 chart_index = 0;
 spawn_offset = 1.5;
 
-music_instance = audio_play_sound(sound_lvl1, 1, false);
+//music_instance = audio_play_sound(sound_lvl1, 1, false);
+music_instance = noone;
 
 var json = @'
 {
@@ -77,6 +78,26 @@ var json = @'
 
 chart_data = json_parse(json);
 
-show_debug_message(chart_data.notes[0].time);
-show_debug_message(chart_data.notes[0].key);
+
+// UI
+score_bar = 0;
+score_bar_color = c_white;
+score_bar_timer = 0;
+score_bar_visual = 50;
+score_bar_timer = 0;
+
+//State of Game
+game_state = "countdown";
+
+countdown = 3;
+countdown_timer = room_speed;
+
+music_started = false;
+level_finished = false;
+
+level_complete = false;
+
+
+audio_play_sound(snd_whistle_start, 1, false);
+
 

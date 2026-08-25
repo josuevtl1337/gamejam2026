@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_lvl1",
+  "%Name":"snd_boop",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":18.427551,
+  "duration":0.8556916,
   "exportDir":"",
-  "name":"sound_lvl1",
+  "name":"snd_boop",
   "parent":{
     "name":"JAM26",
     "path":"JAM26.yyp",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_lvl1.wav",
-  "volume":0.37,
+  "soundFile":"snd_boop.wav",
+  "volume":0.34,
 }
