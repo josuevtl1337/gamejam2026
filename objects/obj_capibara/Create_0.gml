@@ -1,3 +1,5 @@
+x= 500;
+y= 500;
 visible = false;
 
 commentary_text = "";
@@ -12,8 +14,6 @@ text_sound_timer = 0;
 
 function start_commentary(_text)
 {
-    visible = true;
-
     commentary_text = _text;
     commentary_display = "";
 

@@ -60,7 +60,7 @@ switch (game_state)
             var note = instance_create_layer(
                 800,
                 150,
-                "Instances_1",
+                "Instances",
                 obj_note
             );
 
@@ -119,10 +119,11 @@ switch (game_state)
     case GameState.COMMENTARY:
     if (commentator_instance == noone)
     {
+		show_debug_message("entro aca!!!!!!!!!!!!!!!!!")
         commentator_instance = instance_create_layer(
             0,
             0,
-            "Instances_1",
+            "Instances",
             obj_capibara
         );
 

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_beep1",
+  "%Name":"sound_lvl3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.51342404,
+  "duration":100.8907,
   "exportDir":"",
-  "name":"snd_beep1",
+  "name":"sound_lvl3",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_beep1.wav",
-  "volume":0.28,
+  "soundFile":"sound_lvl3.mp3",
+  "volume":0.5,
 }

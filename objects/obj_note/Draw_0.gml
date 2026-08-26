@@ -1,4 +1,3 @@
-show_debug_message(note_key);
 switch (note_key)
 {
     case vk_up:
@@ -17,3 +16,5 @@ switch (note_key)
         draw_sprite(arrow_right, 0, x, y);
         break;
 }
+
+depth = -100
