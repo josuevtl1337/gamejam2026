@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var level1_json = @'
+=======
+ var level1_json = @'
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
 {
   "song": "music_song",
   "notes": [
@@ -1411,8 +1415,11 @@ enum GameState
 
 					
 // SCORE BAR
+<<<<<<< HEAD
 //game_state = GameState.COUNTDOWN;
 game_state = GameState.COMMENTARY;
+=======
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
 game_state = GameState.COUNTDOWN;
 //game_state = GameState.COMMENTARY;
 
@@ -1445,7 +1452,11 @@ chart_index = 0;
 
 commentator_instance = noone;
 
+<<<<<<< HEAD
 current_level = 0;
+=======
+current_level = 2;	//hardcodeado cambiar numero de lvl
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
 levels = [
     {
         song: sound_lvl1,

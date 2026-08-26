@@ -30,10 +30,14 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
+<<<<<<< HEAD
   "spriteId":{
     "name":"barraBlanca",
     "path":"sprites/barraBlanca/barraBlanca.yy",
   },
+=======
+  "spriteId":null,
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
   "spriteMaskId":null,
   "visible":true,
 }

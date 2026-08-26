@@ -32,7 +32,10 @@
     {"id":{"name":"obj_buttonReturnMainMenu","path":"objects/obj_buttonReturnMainMenu/obj_buttonReturnMainMenu.yy",},},
     {"id":{"name":"obj_capibara","path":"objects/obj_capibara/obj_capibara.yy",},},
     {"id":{"name":"obj_chart_editor","path":"objects/obj_chart_editor/obj_chart_editor.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_continue_btn","path":"objects/obj_continue_btn/obj_continue_btn.yy",},},
+=======
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_hinchadaController","path":"objects/obj_hinchadaController/obj_hinchadaController.yy",},},
     {"id":{"name":"obj_hinchadaIDLE","path":"objects/obj_hinchadaIDLE/obj_hinchadaIDLE.yy",},},
@@ -47,7 +50,10 @@
     {"id":{"name":"snd_beep1","path":"sounds/snd_beep1/snd_beep1.yy",},},
     {"id":{"name":"snd_boop","path":"sounds/snd_boop/snd_boop.yy",},},
     {"id":{"name":"snd_whistle_start","path":"sounds/snd_whistle_start/snd_whistle_start.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"sound_buttonHover","path":"sounds/sound_buttonHover/sound_buttonHover.yy",},},
+=======
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
     {"id":{"name":"sound_lvl1","path":"sounds/sound_lvl1/sound_lvl1.yy",},},
     {"id":{"name":"sound_lvl2","path":"sounds/sound_lvl2/sound_lvl2.yy",},},
     {"id":{"name":"sound_lvl3","path":"sounds/sound_lvl3/sound_lvl3.yy",},},
@@ -57,7 +63,10 @@
     {"id":{"name":"arrow_up","path":"sprites/arrow_up/arrow_up.yy",},},
     {"id":{"name":"arrow","path":"sprites/arrow/arrow.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"barraBlanca","path":"sprites/barraBlanca/barraBlanca.yy",},},
+=======
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
     {"id":{"name":"configOff","path":"sprites/configOff/configOff.yy",},},
     {"id":{"name":"configOn","path":"sprites/configOn/configOn.yy",},},
     {"id":{"name":"exitOff","path":"sprites/exitOff/exitOff.yy",},},
@@ -73,7 +82,10 @@
     {"id":{"name":"returnOff","path":"sprites/returnOff/returnOff.yy",},},
     {"id":{"name":"returnOn","path":"sprites/returnOn/returnOn.yy",},},
     {"id":{"name":"sp_capibara","path":"sprites/sp_capibara/sp_capibara.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"sp_carpincho_locutor","path":"sprites/sp_carpincho_locutor/sp_carpincho_locutor.yy",},},
+=======
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
     {"id":{"name":"sp_hinchada","path":"sprites/sp_hinchada/sp_hinchada.yy",},},
     {"id":{"name":"sp_map","path":"sprites/sp_map/sp_map.yy",},},
     {"id":{"name":"sp_screen","path":"sprites/sp_screen/sp_screen.yy",},},

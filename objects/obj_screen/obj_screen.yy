@@ -1,7 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_screen",
+<<<<<<< HEAD
   "eventList":[],
+=======
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
   "managed":true,
   "name":"obj_screen",
   "overriddenProperties":[],

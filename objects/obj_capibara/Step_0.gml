@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+if (!visible)
+{
+    exit;
+}
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
 
 //EFECTO DEL TEXTO 
 if (!commentary_finished)

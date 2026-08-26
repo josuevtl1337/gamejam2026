@@ -1,6 +1,10 @@
 x= 500;
 y= 500;
+<<<<<<< HEAD
 depth= -110;
+=======
+visible = false;
+>>>>>>> ea7d094dd9c2cbf74acc0aa2edf51c07639042a2
 
 commentary_text = "";
 commentary_display = "";
