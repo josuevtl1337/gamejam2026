@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_capibara",
-    "path":"sprites/sp_capibara/sp_capibara.yy",
+    "name":"sp_carpincho_locutor",
+    "path":"sprites/sp_carpincho_locutor/sp_carpincho_locutor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

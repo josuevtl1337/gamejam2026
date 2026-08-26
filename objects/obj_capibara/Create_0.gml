@@ -1,6 +1,6 @@
 x= 500;
 y= 500;
-visible = false;
+depth= -110;
 
 commentary_text = "";
 commentary_display = "";

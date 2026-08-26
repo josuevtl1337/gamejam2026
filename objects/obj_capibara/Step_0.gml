@@ -1,7 +1,3 @@
-if (!visible)
-{
-    exit;
-}
 
 //EFECTO DEL TEXTO 
 if (!commentary_finished)
