@@ -1412,12 +1412,16 @@ enum GameState
 					
 // SCORE BAR
 //game_state = GameState.COUNTDOWN;
-game_state = GameState.COMMENTARY;
 
 score_bar = 50;
 score_bar_visual = 50;
 score_bar_color = c_white;
 score_bar_timer = 0;
+
+//contadores de combo
+combo = 0;
+combo_miss = 0;
+hinchada_level = 0;	//determina que animacion se ejecuta
 
 level_complete = false;
 
@@ -1437,6 +1441,7 @@ music_instance = noone;
 chart_index = 0;
 
 commentator_instance = noone;
+
 
 current_level = 0;
 levels = [
