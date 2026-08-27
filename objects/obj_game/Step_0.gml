@@ -97,7 +97,6 @@ switch (game_state)
 	    if (score_bar >= current_target)
 	    {
 	        game_state = GameState.COMMENTARY;
-			level_complete = true;
 	    }
 		//PERDIO
 	    else
@@ -119,10 +118,9 @@ switch (game_state)
     case GameState.COMMENTARY:
     if (commentator_instance == noone)
     {
-		show_debug_message("entro aca!!!!!!!!!!!!!!!!!")
         commentator_instance = instance_create_layer(
-            0,
-            0,
+            300,
+            300,
             "Instances",
             obj_capibara
         );
@@ -130,6 +128,16 @@ switch (game_state)
         commentator_instance.start_commentary(
             current_commentary
         );
+		with(obj_capibara){
+			visible = true
+		}
+		instance_create_layer(
+            600,
+            400,
+            "Instances",
+            obj_continue_btn
+        );
+
     }
 
     break;	

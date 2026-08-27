@@ -60,7 +60,7 @@ if (pressed_key != noone)
                 with (obj_game)
                 {
 					//barra de progreso
-                    score_bar += 10;
+                    score_bar += 3;
                     score_bar = clamp(score_bar, 0, 100);
                     score_bar_color = c_green;
 
@@ -71,6 +71,7 @@ if (pressed_key != noone)
 					//cambio de estado de la hinchada
 					if (combo >= 20)
 					{
+						score_bar += 2;
 						hinchada_level = 2;
 					}
 					else if (combo >= 10)
@@ -91,7 +92,7 @@ if (pressed_key != noone)
 
                 with (obj_game)
                 {
-                    score_bar += 5;
+                    score_bar += 2;
                     score_bar = clamp(score_bar, 0, 100);
                     score_bar_color = c_blue;
    
@@ -101,6 +102,7 @@ if (pressed_key != noone)
 					//cambio de estado de la hinchada
 					if (combo >= 20)
 					{
+						score_bar += 2;
 						hinchada_level = 2;
 					}
 					else if (combo >= 10)
@@ -128,7 +130,7 @@ if (pressed_key != noone)
                 feedback_text = "MISS";
                 feedback_timer = 60;
 
-                score_bar -= 15;
+                score_bar -= 5;
                 score_bar = clamp(score_bar, 0, 100);
                 score_bar_color = c_red;
 
@@ -175,7 +177,7 @@ if (x < timing_x - 50)
         feedback_text = "MISS";
         feedback_timer = 60;
 
-        score_bar -= 15;
+        score_bar -= 5;
         score_bar = clamp(score_bar, 0, 100);
         score_bar_color = c_red;
 

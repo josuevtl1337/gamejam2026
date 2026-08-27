@@ -62,7 +62,7 @@ if (game_state == GameState.PLAYING)
 	);
 
 	//Linea amarilla de la meta
-	var target_x = bar_x + (bar_width * 0.85);
+	var target_x = bar_x + (bar_width * (current_target / 100));
 
 	draw_set_color(c_yellow);
 
