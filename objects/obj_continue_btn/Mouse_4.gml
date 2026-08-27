@@ -1,7 +1,8 @@
 with(obj_game){
-	next_level();
-	 
+	    show_debug_message("CURRENT LEVEL: " + string(current_level));
+	next_level();	 
 }
+
 with(obj_capibara){
 	instance_destroy();
 }

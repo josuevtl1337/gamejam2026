@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_beep1.wav",
-  "volume":0.28,
+  "volume":0.15,
 }

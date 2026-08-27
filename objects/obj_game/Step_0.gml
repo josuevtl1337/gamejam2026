@@ -35,6 +35,7 @@ switch (game_state)
         );
 
         song_started = true;
+	
     }
 
 
@@ -42,10 +43,9 @@ switch (game_state)
     // TIEMPO DE LA CANCIÓN
     // ==========================================
 
-    var song_time = audio_sound_get_track_position(
+	var song_time = audio_sound_get_track_position(
         music_instance
     );
-
 
     // ==========================================
     // GENERAR NOTAS
@@ -118,7 +118,7 @@ switch (game_state)
     case GameState.COMMENTARY:
     if (commentator_instance == noone)
     {
-        commentator_instance = instance_create_layer(
+      commentator_instance = instance_create_layer(
             300,
             300,
             "Instances",
@@ -128,16 +128,17 @@ switch (game_state)
         commentator_instance.start_commentary(
             current_commentary
         );
+		
 		with(obj_capibara){
 			visible = true
 		}
+		
 		instance_create_layer(
             600,
-            400,
+            350,
             "Instances",
             obj_continue_btn
         );
-
     }
 
     break;	
@@ -151,3 +152,4 @@ switch (game_state)
 			room_goto(rm_gameWin);
     break;
 }
+

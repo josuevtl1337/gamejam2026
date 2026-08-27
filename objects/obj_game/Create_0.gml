@@ -1434,11 +1434,12 @@ commentator_instance = noone;
 
 
 current_level = 0;
+
 levels = [
     {
         song: sound_lvl1,
         chart: chart_data_lvl1,
-        target: 75,
+        target: 70,
         travel_time: 4,
 		commentary:
         "¡La hinchada no para de alentar y asi nos vamos a la segunda mitad!",
@@ -1479,6 +1480,7 @@ levels = [
     }
 ];
 
+
 function load_level()
 {
     var data = levels[current_level];
@@ -1507,19 +1509,24 @@ load_level();
 
 function next_level()
 {
+	
 	if (current_level >= array_length(levels) - 1)
     {
         game_state = GameState.VICTORY;
         return;
     }
+	
 	commentator_instance = noone;
 
     current_level++;
+	
+	    show_debug_message("DESPUES: " + string(current_level));
 
     load_level();
 
     countdown = 4;
     countdown_timer = room_speed;
+	combo = 0;
 
     game_state = GameState.COUNTDOWN;
 
@@ -1528,8 +1535,6 @@ function next_level()
 function commentator_finished()
 {
     commentator_instance = noone;
-
-    next_level();
 }
 
 
