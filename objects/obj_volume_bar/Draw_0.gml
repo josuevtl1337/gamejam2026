@@ -1,5 +1,4 @@
 // BARRA MUSICA
-
 var x_bar = 479;
 var y_bar = 427;
 

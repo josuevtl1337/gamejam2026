@@ -68,6 +68,7 @@
     {"id":{"name":"arrow_right","path":"sprites/arrow_right/arrow_right.yy",},},
     {"id":{"name":"arrow_up","path":"sprites/arrow_up/arrow_up.yy",},},
     {"id":{"name":"arrow","path":"sprites/arrow/arrow.yy",},},
+    {"id":{"name":"backgorund","path":"sprites/backgorund/backgorund.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
     {"id":{"name":"barraBlanca","path":"sprites/barraBlanca/barraBlanca.yy",},},
     {"id":{"name":"configOff","path":"sprites/configOff/configOff.yy",},},
