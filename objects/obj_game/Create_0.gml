@@ -1399,25 +1399,19 @@ enum GameState
     GAME_OVER,
     VICTORY
 }
-
-
-//State of Game
-//game_state = "countdown";
-//countdown = 3;
-//countdown_timer = room_speed;
-//music_started = false;
-//level_finished = false;
-//level_complete = false;
-
-					
+			
 // SCORE BAR
-//game_state = GameState.COUNTDOWN;
-game_state = GameState.COMMENTARY;
+game_state = GameState.COUNTDOWN;
 
 score_bar = 50;
 score_bar_visual = 50;
 score_bar_color = c_white;
 score_bar_timer = 0;
+
+//contadores de combo
+combo = 0;
+combo_miss = 0;
+hinchada_level = 0;	//determina que animacion se ejecuta
 
 level_complete = false;
 
@@ -1438,15 +1432,17 @@ chart_index = 0;
 
 commentator_instance = noone;
 
+
 current_level = 0;
+
 levels = [
     {
         song: sound_lvl1,
         chart: chart_data_lvl1,
-        target: 85,
+        target: 70,
         travel_time: 4,
 		commentary:
-        "¡La hinchada no para de alentar y su equipo se pone a la delantera!",
+        "¡La hinchada no para de alentar y asi nos vamos a la segunda mitad!",
 		available_keys: [
             vk_up,
             vk_down
@@ -1456,7 +1452,7 @@ levels = [
     {
         song: sound_lvl2,
         chart: chart_data_lvl2,
-        target: 85,
+        target: 70,
         travel_time: 3,
 		available_keys: [
             vk_up,
@@ -1464,13 +1460,13 @@ levels = [
             vk_left
         ],
 		commentary:
-        "¡La hinchada no para de alentar y su equipo se pone a la delantera!"
+        "El partido se calienta! Sin goles pasamos al Tiempo extra!"
     },
 
     {
         song: sound_lvl3,
         chart: chart_data_lvl3,
-        target: 85,
+        target: 80,
         travel_time: 2.5,
         final_level: true,
 		available_keys: [
@@ -1480,9 +1476,10 @@ levels = [
             vk_right
         ],
 		commentary:
-        "¡La hinchada no para de alentar y su equipo se pone a la delantera!"
+        "GOLAZOOOOOOOOOOOOOO LOS LOCALES GANAN EL PARTIDAZOOOOOOOOOOO"
     }
 ];
+
 
 function load_level()
 {
@@ -1512,18 +1509,24 @@ load_level();
 
 function next_level()
 {
+	
 	if (current_level >= array_length(levels) - 1)
     {
         game_state = GameState.VICTORY;
         return;
     }
 	
+	commentator_instance = noone;
+
     current_level++;
+	
+	    show_debug_message("DESPUES: " + string(current_level));
 
     load_level();
 
     countdown = 4;
     countdown_timer = room_speed;
+	combo = 0;
 
     game_state = GameState.COUNTDOWN;
 
@@ -1532,8 +1535,6 @@ function next_level()
 function commentator_finished()
 {
     commentator_instance = noone;
-
-    next_level();
 }
 
 

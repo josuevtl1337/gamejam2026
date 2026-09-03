@@ -1,26 +1,26 @@
 {
-  "$GMSound":"v2",
-  "%Name":"sound_lvl1",
-  "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+  "$GMSound": "v2",
+  "%Name": "sound_lvl1",
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default"
   },
-  "bitDepth":1,
-  "channelFormat":0,
-  "compression":0,
-  "compressionQuality":4,
-  "conversionMode":0,
-  "duration":18.427551,
-  "exportDir":"",
-  "name":"sound_lvl1",
-  "parent":{
-    "name":"sounds",
-    "path":"folders/sounds.yy",
+  "bitDepth": 1,
+  "channelFormat": 0,
+  "compression": 0,
+  "compressionQuality": 4,
+  "conversionMode": 0,
+  "duration": 18.427551,
+  "exportDir": "",
+  "name": "sound_lvl1",
+  "parent": {
+    "name": "sounds",
+    "path": "folders/sounds.yy"
   },
-  "preload":false,
-  "resourceType":"GMSound",
-  "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"sound_lvl1.wav",
-  "volume":0.51,
+  "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
+  "sampleRate": 44100,
+  "soundFile": "sound_lvl1.wav",
+  "volume": 0.8
 }
